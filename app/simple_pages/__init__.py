@@ -6,7 +6,7 @@ simple_pages = Blueprint('simple_pages', __name__,
 
 
 @simple_pages.route('/', defaults={'page': 'index'})
-@simple_pages.route('/<page>')
+@simple_pages.route('/page1')
 def show(page):
     try:
         return render_template('%s.html' % page)
