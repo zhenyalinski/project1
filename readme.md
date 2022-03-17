@@ -1,6 +1,5 @@
 Project 1
 
-# Project Setup
 
 [![Production Workflow](https://github.com/zhenyalinski/project123/actions/workflows/prod.yml/badge.svg)](https://github.com/zhenyalinski/project123/actions/workflows/prod.yml)
 
