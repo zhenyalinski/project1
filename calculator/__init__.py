@@ -7,6 +7,7 @@ class Calculator:
 
     def add(self, value_1):
         """ This is the add method"""
+        # Call the static method add to return the sum and set it to calculator property
         self.result = self.result + value_1
         return self.result
 
