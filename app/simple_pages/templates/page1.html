@@ -38,13 +38,18 @@
 
                 </p>
 
-                 <p>  
+                 <p>
 
                  <h2><u>Whats Encapsulation?</u></h2>
 
-                </p>
+                 <img src="{{ url_for('static', filename='images/encap.png') }}" class="img-fluid mt-5"
+                    alt="staticmethod" width="600px" height="500px"style="float:right">
 
-                <p>
+                 </p>
+
+
+
+                  <p>
                     Encapsulation - is when data is encapsulated an object.Encapsulation protects data like methods
                     and variables within an object to be alternated and keeps
                     them in a separate "department", for example, you have two sharepoint folders that are one for
@@ -52,26 +57,33 @@
                     from each other where people from accounting only can access the accounting folder and underwriting
                     only has access to the underwriting folders.For example in the calculator_test.py there is a code
                     "calc1 = Calculator() and calc2 = Calculator()" which demonstrates an encapsulation and classes being
-                    used independently with independent results to them.
+                    used independently with independent results to them
                 </p>
+
                 <p>
-                    Lets know go over the inheritance. When
-                    inheritance is introduced into code it eliminated the child-parent relationship and allows you to
-                    include multiple classes into one object. Benefits of the inheritance is that it displays real-world
+                    Lets know go over the inheritance. When inheritance is introduced into code it eliminated the child-parent
+                    relationship and allows you to include multiple classes into one object. Benefits of the inheritance is that it displays real-world
                     relationships,it allows us to reuse the code and it inherits any subclasses related to any
                     classes being inherited. XXXX ADD Image from 37:37 min in march 3 video
                 </p>
+
+
                 <p>
+
+                <img src="{{ url_for('static', filename='images/poly.png') }}" class="img-fluid mt-5"
+                   alt="staticmethod" width="600px" height="500px"style="float:right">
+
+                </p>
+
+
+
+                <p>
+                                                                                                                                                                                                         
                     Now, lets go over the polymorphism. Overall, polymorphism is when one function
                     name can work on many other shapes or forms and will depend on type of object that triggers it.
                     It can exist with a class method and even inheritance. If we look at our code you can find polymorphism
                     the .result which will call for any calculation which in this case will be addition, subtraction etc
                     ADD IMAGE 8:36 PM 3.23.2022
-
-
-                      <img src="{{ url_for('static', filename='images/poly.png') }}" class="img-fluid mt-5"
-                      alt="staticmethod" width="600px" height="500px">
-
 
                 </p>
 
@@ -150,6 +162,15 @@
                     you can find it in the calculator/_init_.py file as "result = 0".
                </p>
 
+
+               <p>
+
+               <img src="{{ url_for('static', filename='images/fixture1.png') }}" class="img-fluid mt-5"
+                  alt="staticmethod" width="600px" height="500px"style="float:right">
+
+
+               </p>
+                
                 <p>
                     <h2><u>What role does a fixture play in the OOP?</u></h2>
                     Whats a fixture? In the object-oriented language fixture is what aids your data to be arranged in the
@@ -160,11 +181,7 @@
                     where we will clear the history after we added it and we will eventually test it for a "0" and "true" which
                     will check for clearing the entire history of your calculator. Overall, the purpose of the fixture is to
                     set specific function environment which will be tested using the pytest, without it there would not be
-                    anything to look/reference to within our calculator history test. ADD IMAGE 10:05 pm march 23
-
-                     <img src="{{ url_for('static', filename='images/fixture1.png') }}" class="img-fluid mt-5"
-                     alt="staticmethod" width="600px" height="500px">
-
+                    anything to look/reference to within our calculator history test. ADD IMAGE 10:05 pm march 2
 
                 </p>
 
