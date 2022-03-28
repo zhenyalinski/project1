@@ -59,3 +59,48 @@ def test_my_first_test_add_with_variables():
     value_b = 2
     value_c = value_a + value_b
     assert value_a + value_b == value_c
+
+
+def test_calculator_divide_method():
+    """Testing the calculator Division"""
+    value_a = 8
+    value_b = 2
+    value_c = value_a / value_b
+    calculator = Calculator()
+    assert calculator.divide(value_a, value_b) == value_c
+
+
+def test_my_first_test_subtract_with_variables():
+    """Testing the simplest addition"""
+    value_a = 4
+    value_b = 1
+    value_c = value_a - value_b
+    calculator = Calculator()
+    assert calculator.subtract(value_a, value_b) == value_c
+
+
+def test_my_first_test_multiply_with_variables():
+    """Testing the simplest addition"""
+    value_a = 1
+    value_b = 6
+    value_c = value_a * value_b
+    calculator = Calculator()
+    assert calculator.multiply(value_a, value_b) == value_c
+
+
+def test_my_second_test_subtract_with_variable():
+    """Testing the simplest subtraction"""
+    value_a = 6
+    value_b = 2
+    value_c = value_a - value_b
+    calculator = Calculator()
+    assert calculator.subtract(value_a, value_b) == value_c
+
+
+def test_my_second_test_calculator_divide_method():
+    """Testing the calculator Division"""
+    value_a = 2
+    value_b = 2
+    value_c = value_a / value_b
+    calculator = Calculator()
+    assert calculator.divide(value_a, value_b) == value_c
