@@ -1,8 +1,6 @@
-Project 1
+Project 2
 
-Workflow
+https://krutokak.herokuapp.com
 
-[![Production Workflow](https://github.com/zhenyalinski/Project123/actions/workflows/prod.yml/badge.svg)](https://github.com/zhenyalinski/Project123/actions/workflows/prod.yml)
-[![Development Workflow](https://github.com/zhenyalinski/Project123/actions/workflows/dev.yml/badge.svg)](https://github.com/zhenyalinski/Project123/actions/workflows/dev.yml)
-
-Test test test
+Development https://zhenyadev.herokuapp.com
+Production https://zhenyaprod.herokuapp.com
