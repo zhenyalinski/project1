@@ -51,6 +51,8 @@
 
                             <img src="{{ url_for('static', filename='images/encap4.png') }}" class="img-fluid mt-5"
                                  alt="staticmethod" width="600px" height="500px" style="float:left">
+                            <img src="{{ url_for('static', filename='images/abstract44.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
 
                         </div>
                         <div class="col boarder">
@@ -58,14 +60,13 @@
                         <h2><u>How does encapsulation relate to the calculator code?</u></h2>
                             Encapsulation plays a vital role in our calculator project. It somewhat isolates and treats
                             a calculator
-                            class separately which allows to test each environment without interfering others. Remember,
+                            class separately which allows us to test each environment without interfering others. Remember,
                             we want
-                            to avoid the spaghetti code and have one function perform one thing which represents the
+                            to avoid the "spaghetti" code and have one function perform one thing which represents the
                             single -
                             responsibility principle.If we look to the screenshot on the left calc1 and cal2 represent
                             two separate
-                            environments expecting 2 different results 5 and 6. If we look at the screenshot on the
-                            right, it has
+                            environments expecting 2 different results 5 and 6. If we look at the screenshot below, it has
                             elements of encapsulation as well, where we have an addition calculation class asserting for
                             a result of 1
                             which will be considered one environment and the subtraction method asserting for a -1 as
@@ -81,11 +82,11 @@
                             directly related
                             to polymorphism and encapsulation which all answer one simple but important question, what
                             your code really
-                            do. If we look closely at our screenshots above you can actually have the addition call
+                            do. If we look closely at our screenshots you can actually have the addition call
                             inherits
                             calculator properties because they are both meant to do one thing, calculate, so we can
                             certainly put the
-                            code together in a certain matter where again, calculator inherits addition properties.
+                            code together in a certain manner where again, calculator inherits addition properties.
 
 
 
@@ -121,7 +122,7 @@
                             "polymorphism"
                             stands for having many shapes, therefore we will have one function which will be used for
                             many different
-                            types/shapes. If we take a close at our code, we have the "result" which will call for other
+                            types/shapes. If we take a close look at our code, we have the "result" which will call for other
                             types/objects
                             like subtraction, multiplication and other, where "self.result" method is triggered calling
                             for the
@@ -137,7 +138,7 @@
                             not
                             having that physical existence.Abstraction is one of the most crucial OOP principles
                             especially for
-                            our calculator program. Abstraction shows/reflects chain type of event in a layered manner,
+                            our calculator program. Abstraction shows/reflects chain type of events in a layered manner,
                             this is
                             how operations and calculator_test.py communicate together. If we look closely at our code,
                             the screenshots
@@ -145,8 +146,8 @@
                             Multiplication which
                             exists but triggers other functions like "def multiply" causing multiplication processes to
                             kick in and
-                            the "return" which will send the value 1 and value to the calculator. And the screenshot on
-                            the left
+                            the "return" which will send the value 1 and value to the calculator. And the other screenshot
+
                             showing elements of an abstraction where "def multiply" and "def divide" triggering "result"
                             of the
                             multiplication return to self result, which are again just elements of an abstraction.
@@ -161,8 +162,7 @@
                                  alt="staticmethod" width="600px" height="500px" style="float:right">
                             <img src="{{ url_for('static', filename='images/abstract33.png') }}" class="img-fluid mt-5"
                                  alt="staticmethod" width="600px" height="500px" style="float:right">
-                            <img src="{{ url_for('static', filename='images/abstract44.png') }}" class="img-fluid mt-5"
-                                 alt="staticmethod" width="600px" height="500px" style="float:right">
+
 
                         </div>
                     </div>
