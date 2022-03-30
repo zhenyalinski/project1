@@ -24,328 +24,505 @@
             <div class="row">
 
 
-            <div class="row">
-                <h1><span class="diffont">O</span>OP(Object-Oriented Programming and more)</h1>
+                <div class="row">
+                    <h1><span class="diffont">O</span>OP(Object-Oriented Programming and more)</h1>
+
+                    <p>
+                        Thank you for joining me today. In this article I would like to cover the object-oriented
+                        programming,
+                        also known as OOP and other concepts like encapsulation and more. When it comes to OOP you have
+                        automatically think of the 4 main principles: encapsulation, inheritance, polymorphism and
+                        abstraction.
+                        Lets now go over these principles in details.
+                    </p>
+
+
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            Terms:
+                        </div>
+                        <div class="col boarder">
+                            Definition:
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Encapsulation</u></h2>
+                        </div>
+                        <div class="col boarder">
+                        Encapsulation - is when data encapsulates an object.Encapsulation protects data like
+                        methods
+                        and variables within an object to be alternated and keeps
+                        them in a separate "department", for example, you have two sharepoint folders that are one
+                        for
+                        accounting and the other is for underwriting. You would have those folders completely
+                        separated
+                        from each other where people from accounting only can access the accounting folder and
+                        underwriting
+                        only has access to the underwriting folders.For example in the calculator_test.py there is a
+                        code
+                        "calc1 = Calculator() and calc2 = Calculator()" which demonstrates an encapsulation and
+                        classes being
+                        used independently with independent results to them.
+
+                        <img src="{{ url_for('static', filename='images/encap.png') }}" class="img-fluid mt-5"
+                             alt="staticmethod" width="600px" height="500px" style="float:left">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Inheritance</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Lets know go over the inheritance. When inheritance is introduced into code it eliminates
+                            the child-parent
+                            relationship and allows you to include multiple classes into one object. Benefits of the
+                            inheritance is that it displays real-world
+                            relationships and allows us to reuse the code inherit any subclasses related to any
+                            classes being inherited.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Polymorphism</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Now, lets go over the polymorphism. Overall, polymorphism is when one function
+                            name can work on many other shapes or forms and will depend on type of object that
+                            triggers
+                            it.
+                            It can exist with a class method and even inheritance. If we look at our code you can
+                            find
+                            polymorphism
+                            the ".result" which we will call for any calculation where in this case it will be addition,
+                            subtraction etc.
+
+                            <img src="{{ url_for('static', filename='images/poly.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Abstraction</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Abstraction is used to hide data that is not necessary for a user to know
+                            and see. For example, when you use a self-check out in store, you would follow the
+                            prompt to
+                            complete
+                            your purchase, but you do not need to know how the self-checkout hardware processes
+                            your
+                            purchase.
+                            Another reason to use abstraction is to simplify and focus more on the purpose of a
+                            class,
+                            which
+                            will optimize the overall performance of your code and not overwhelm it with extra
+                            data.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Instantation</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            I would like to also introduce you to instantation. Instantation - is a process
+                            where you will take
+                            a class and turn it into an object. If we look back at our code, in the
+                            calculator_test.py file we
+                            can find the instance "assert isinstance(calculator, Calculator)" which asserts
+                            here
+                            for calculator
+                            class to turn into an object.
+
+                            <img src="{{ url_for('static', filename='images/insta.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Class</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            The whole purpose
+                            of a class is to put functions together and make them work as one unit where
+                            class will act
+                            like a blueprint
+                            from where object will be derieved from. You may easily spot a class in a code where
+                            one
+                            of them is
+                            located in the
+                            calculator/_init_.py - "class Calculator:" which is a calculator class which
+                            will command
+                            many other
+                            methods like adding, subtracting, getting results and more.
+
+                            <img src="{{ url_for('static', filename='images/calculator.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Object</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Object is a noun and an instance of a class
+                            that we would use to perform a certain function. It has a collection of
+                            data
+                            and set of
+                            operations that will
+                            be performed on that particular data set. Additionally, an object is
+                            characterized by a
+                            number of
+                            operations as well as a state which stores in its memory the
+                            effects of
+                            these
+                            operations.
+                            We can find a line of code: calculator = Calculator()
+                            where we are instantiating the calculator class (Calculator () ) and by doing
+                            so
+                            we will create
+                            the calculator
+                            object.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Namespace</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Namespace-organizes and represent files and folder of classes.
+                            Overall,
+                            folder is a namespace and
+                            file will be a class that stores functions which is represented as a
+                            text. An example of a namespace
+                            will be the "from calculator import Calculator"
+                            (calculator_test.py)where from calculator is the
+                            namespace "folder"which will import into calculator class.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Property</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Lets now visit a property. Property is a variable that will stay
+                            with a
+                            class and once it performs
+                            it will stick to the code as an end result. Properties can be static
+                            and
+                            instance, where with static
+                            you will have a single value that will be used for the entire class
+                            and
+                            with the instance you will have a copy of a
+                            particular property value for singular instance of the class we are
+                            working with. The great way to
+                            identify a property is to look for a class which will be attached
+                            for a
+                            particular class. In our code
+                            you can find it in the calculator/_init_.py file as "result = 0".
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Fixture</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Whats a fixture? In the object-oriented language fixture is what
+                            aids your data to be arranged in the
+                            consistent manner and promotes a fixed baseline to our test
+                            functions.
+                            Fixture is an essential tool to use when it comes to testing
+                            your
+                            calculator. In order
+                            to test something you need to mimic the environment that you are
+                            looking to test, where in our case we add
+                            an addition value and testing it for a "1" checking later if
+                            that
+                            value will appear.
+                            Overall, the purpose of the fixture is to
+                            set specific function environment which will be tested using the
+                            pytest, without it there would nothing to look/reference to within
+                            our calc. code.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Method</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Method is a function that will be located
+                            within a particular class. It is a function that may operate
+                            without a class but once it
+                            joins under a
+                            class it turns into a method. There are two types of
+                            methods,
+                            static and instance. When it
+                            comes to static
+                            method or the word static, you do not instantiate it and
+                            will
+                            only use it when you need to
+                            create just a
+                            single instance of lets say, an instance of subtraction and
+                            with
+                            the instance method will
+                            work on each
+                            individual project and use the "self" to call for a
+                            particular
+                            class we work at that moment.
+                            You can
+                            find a method example in the calculator_test.py as an "assert
+                            calculator.get_result() == 0"
+                            which has the ()
+                            to it and is a get_result method which will lead to the
+                            results
+                            of your calculations ,and it
+                            also has
+                            methods linked to the subtraction and addition.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Constructor</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Constructor plays a vital role in pushing any data into
+                            an object after it was instantiated!
+                            Without a constructor we would not have data flow right
+                            into an
+                            object which is essential for an object
+                            to operate with its overall purpose.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Type Hint/Cast</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            There are two more functions I would like to discuss
+                            which
+                            are type cast and type hint. Type
+                            cast
+                            converts static data, which will be a tuple list
+                            into
+                            dynamic which in this case it will be
+                            just a
+                            list. We do want to have the type cast functionality
+                            because
+                            it allows us to make changes to
+                            our data,
+                            like multiply or divide in our calculator, which is
+                            a vital
+                            tool to have since that is the
+                            whole purpose
+                            of a calculator. When it comes to python its all
+                            about
+                            variables and
+                            return values being dynamic, where they can be
+                            changed while
+                            even running. This type of
+                            experience
+                            definitely makes coding alot more flexible but at
+                            the same
+                            time can introduce alot of errors
+                            in production where static typing can be beneficial.
+                            And
+                            this is where type hinting comes to
+                            play.
+                            Type hinting allows for us to have an option of static
+                            typing
+                            to implement both worlds of
+                            static and dynamic
+                            typing.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>SOLID</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Before we identify what is the purpose of SOLID
+                            and
+                            let's first simply identify what SOLID
+                            stands for.
+                            S - single-responsibility principle, O -
+                            open-closed
+                            principle, L - liskov substitute
+                            principle, I -
+                            interface-segregation principle and D is for
+                            dependency
+                            inversion principle. Overall, SOLID
+                            is needed
+                            to follow a set of rules and principles in
+                            object-oriented design. It has been developed
+                            overtime to
+                            eliminate as much technical debt as possible and
+                            improve
+                            testability of your code which
+                            could significantly
+                            save a lot of time.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Pytest/Pylint</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Pytest tests for all your tests to run
+                            properly
+                            which will significantly increase your
+                            confidence for
+                            a test to run as expected prior to hosting
+                            it on web
+                            and make your testing productivity a
+                            lot more efficient.
+                            Pylint is used for checking if your code
+                            meets the
+                            python standards and looks for type
+                            errors.It also
+                            suggests on how to properly refactor your
+                            code if
+                            needed.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-3 boarder">
+                            <h2><u>Design Patterns</u></h2>
+                        </div>
+                        <div class="col boarder">
+                            Design patterns act like a blueprint to
+                            our
+                            design code and does not
+                            act like an algorithm where it will act
+                            upon a
+                            problem and resolve it as an emd result,
+                            design patterns
+                            are somewhat general steps with avenues
+                            for you
+                            to chose to accomplish a certain task
+                            which
+                            will lead
+                            only to one result. It is absolutely
+                            crucial to
+                            have it in our arsenal to make
+                            programming
+                            alot more
+                            efficient when it comes to communicating
+                            with
+                            your team and speaking same language as
+                            well
+                            as teaches
+                            you how to solve problems in software
+                            design
+                            today.
+
+                            <img src="{{ url_for('static', filename='images/design.png') }}"
+                                 class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px"
+                                 height="500px" style="float:left">
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        <h2><u>Sources:</u></h2>
+                    </p>
+
+                    <p>
+                        https://www.geeksforgeeks.org/encapsulation-in-python/
+                        https://www.geeksforgeeks.org/inheritance-in-python/
+                        https://www.geeksforgeeks.org/polymorphism-in-python/
+                        https://csharp.2000things.com/2011/03/03/259-static-vs-instance-properties/
+                        https://www.geeksforgeeks.org/python-oops-concepts/
+                        https://blogs.msmvps.com/deborahk/object-oriented-programming-oop-terms/
+                        https://docs.pytest.org/en/6.2.x/fixture.html
+                        https://www.pythontutorial.net/python-basics/python-type-hints/
+                        https://refactoring.guru/design-patterns/what-is-pattern
+                        https://www.redbubble.com/i/notebook/Arrange-Act-Assert-Unit-Testing-by-Naubra/59482052.RXH2R
+                        https://www.vectorstock.com/royalty-free-vector/oop-letters-vector-8757750
+                        https://realpython.com/pytest-python-testing/
+                        https://pylint.pycqa.org/en/latest/intro.html
+
+
+                    </p>
+
+                </div>
+
+
             </div>
 
-            <div class="col-14">
-
-                <p>
-                    Thank you for joining me today. In this article I would like to cover the object-oriented programming,
-                    also knows as OOP and other concepts like encapsulations and more. When it comes to OOP you have
-                    automatically think of the 4 main principles: encapsulation, inheritance, polymorphism and abstraction.
-                    Lets go over now these principles in detail.
-
-                </p>
-
-                 <p>
-
-                 <h2><u>Whats Encapsulation?</u></h2>
-
-                 <img src="{{ url_for('static', filename='images/encap.png') }}" class="img-fluid mt-5"
-                    alt="staticmethod" width="600px" height="500px"style="float:right">
-
-                 </p>
-
-
-
-                  <p>
-                    Encapsulation - is when data is encapsulated an object.Encapsulation protects data like methods
-                    and variables within an object to be alternated and keeps
-                    them in a separate "department", for example, you have two sharepoint folders that are one for
-                    accounting and the other is for underwriting. You would have those folders completely separated
-                    from each other where people from accounting only can access the accounting folder and underwriting
-                    only has access to the underwriting folders.For example in the calculator_test.py there is a code
-                    "calc1 = Calculator() and calc2 = Calculator()" which demonstrates an encapsulation and classes being
-                    used independently with independent results to them.
-                </p>
-
-                <p>
-                    Lets know go over the inheritance. When inheritance is introduced into code it eliminated the child-parent
-                    relationship and allows you to include multiple classes into one object. Benefits of the inheritance is that it displays real-world
-                    relationships,it allows us to reuse the code and it inherits any subclasses related to any
-                    classes being inherited.
-                </p>
-
-
-                <p>
-
-                <img src="{{ url_for('static', filename='images/poly.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="500px"style="float:right">
-
-                </p>
-
-
-
-                <p>
-                                                                                                                                                                                                         
-                    Now, lets go over the polymorphism. Overall, polymorphism is when one function
-                    name can work on many other shapes or forms and will depend on type of object that triggers it.
-                    It can exist with a class method and even inheritance. If we look at our code you can find polymorphism
-                    the .result which will call for any calculation which in this case will be addition, subtraction etc
-
-                </p>
-
-
-                   <p>
-
-                   <h2><u>Have you heard of Abstraction before?</u></h2>
-
-                  </p>
-                <p>
-
-
-                    Abstraction is used to hide data that is not necessary for a user to know
-                    and see. For example, when you use a self-check out in store, you would follow the prompt to complete
-                    your purchase, but you do not need to know how the self-checkout hardware processed your purchase.
-                    Another reason to use abstraction is to simplify and focus more on the purpose of a class, which
-                    will optimize the overall performance of your code and not overwhelm it with extra data.
-                </p>
-
-
-                <p>
-
-                  <img src="{{ url_for('static', filename='images/calculator.png') }}" class="img-fluid mt-5"
-                     alt="staticmethod" width="600px" height="500px"style="float:right">
-
-
-                </p>
-
-               
-                <p>
-                    Lets now talk about a class. <h2><u>What is a class in the object-oriented programming?</u></h2>
-                    The whole purpose
-                    of a class is to put functions together and make them work as one unit where class will act like a blueprint
-                    from object will derieved from. You may easily spot a class in a code where one of them is located in the
-                    calculator/_init_.py - "class Calculator:" which is a calculator class which will command many other
-                    methods like adding, subtracting, getting results and more.
-
-                </p>
-
-                 <p>
-
-                     <h2><u>What do we need an object for in the object-oriented programming?</u></h2>
-                     Object is a noun and an instance of a class
-                     that we would use to perform a certain function. It has a collection of data and set of operations that will
-                     be performed on that particular data set. Additionally, an object is characterized by a number of
-                     operations as well as a state which which store in its memory the effects of these operations.
-                     We can find a line of code: calculator = Calculator()
-                     where we instatiating the calculator class (Calculator () ) and by doing so we will create the calculator
-                     object.
-
-                 </p>
-
-                <p>
-                    Since we covered an object, lets now discuss a constructor.
-
-
-                     <h2><u>What role does it play when it comes to an object?</u></h2>
-
-                    Constructor plays a vital role in pushing any data into an object after it was instantiated!
-                    Without a constructor we would not have data flow right into an object which is essential for an object
-                    to operate with its overall purpose.
-
-                </p>
-
-                <p>                                                                                                
-
-                  <img src="{{ url_for('static', filename='images/insta.png') }}" class="img-fluid mt-5"
-                     alt="staticmethod" width="600px" height="500px"style="float:right">
-
-
-                </p>
-                                                                                                                   <p>
-                    I would like to also introduce you to instantation. Instantation - is a process where you will take
-                    a class and turn it into an object. If we look back at our code, in the calculator_test.py file we
-                    can find the instance "assert isinstance(calculator, Calculator)" which asserts here for calculator
-                    class turning into an object.
-                </p>
-
-                <p>
-                    <h2><u>Whats a namespace?</u></h2>
-                    Namespaces-organize and represent files and folder of classes. Overall, folder is a namespace and
-                    file will be a class that stores functions which is represented as a text. An example of a namespace
-                    will be the "from calculator import Calculator" (calculator_test.py)where from calculator is the
-                    namespace "folder"which will import into calculator class.
-                </p>
-                <p>
-                    Lets now visit a property. Property is a variable that will stay with a class and once it performs
-                    it will stick to the code as an end result. Properties can be static and instance, where with static
-                    you will have a single value that will be used for the entire class and with the instance you will have a copy of a
-                    particular property value for singular instance of the class we are working with. The great way to
-                    identify a property is to look for a class which will be attached for a particular class. In our code
-                    you can find it in the calculator/_init_.py file as "result = 0".
-               </p>
-
-
-               <p>
-
-               <img src="{{ url_for('static', filename='images/fixture1.png') }}" class="img-fluid mt-5"
-                  alt="staticmethod" width="600px" height="500px"style="float:right">
-
-
-               </p>
-                
-                <p>
-                    <h2><u>What role does a fixture play in the OOP?</u></h2>
-                    Whats a fixture? In the object-oriented language fixture is what aids your data to be arranged in the
-                    consistent matter and promotes a fixed baseline to our test functions.
-                    Fixture is an essential tool to use when it comes to testing your calculator. In order
-                    to test something you need to mimic the environment that you are looking to test, where in our case we add
-                    an addition value and testing it for a "1" checking later if that value will appear and clearing history,
-                    where we will clear the history after we added it and we will eventually test it for a "0" and "true" which
-                    will check for clearing the entire history of your calculator. Overall, the purpose of the fixture is to
-                    set specific function environment which will be tested using the pytest, without it there would not be
-                    anything to look/reference to within our calculator history test.
-
-                </p>
-
-                <p>
-                     <h2><u>Have you ever heard of method when it comes to python?</u></h2>
-                    Method is a function that will be located
-                    within a particular class. It is a function that may operate without a class but once it joins under a
-                    class it turns into a method. There are two types if methods, static and instance. When it comes to static
-                    method or the word static, you do not instantiate it and will only use it when you need to create just a
-                    single instance of lets say, an instance of subtraction and with the instance method will work on each
-                    individual project and use the "self" to call for a particular class we work at that moment. You can
-                    find a method example in the calculator_test.py as a "assert calculator.get_result() == 0" which has the ()
-                    to it and is a get_result method which will lead to the results of your calculations and it also has
-                    methods linked to the subtraction and addition.
-
-
-
-               </p>
-
-                <p>
-                    <h2><u>Why do we need type hint and cast in the object-oriented programming?</u></h2>
-                    There are two more functions I would like to discuss which are type cast and type hint. Type cast
-                    converts static data, which will be a tuple list into dynamic which in this case it will be just a
-                    list. We do want to have the type cast functionality because it allows us to make changes to our data,
-                    like multiply or divide in our calculator, which is a vital tool to have since that is the whole purpose
-                    of a calculator. INSERT IMAGE THAT HAS float in it. When it comes to python its all obout variables and
-                    return values being dynamic, where they can be changed while even running. This type of experience
-                    definitely makes coding alot more flexible but at the same time can introduce alot of errors
-                    in production where static typing can be beneficial. And this is where type hinting comes to play.
-                    Type hinting allows for to have an option of static typing to implement both worlds of static and dynamic
-                    typing.
-                </p>
-
-                <p>
-
-                <h2><u> What is the purpose of SOLID in the object-oriented programming today?</u></h2>
-                </p>
-
-
-                <p>
-                    Before we identify what is the purpose of SOLID and let's first simply identify what SOLID stands for.
-                    S - single-responsibility principle, O - open-closed principle, L - liskov substitute principle, I -
-                    interface-segregation principle and D is for dependency inversion principle. Overall, SOLID is needed
-                    to follow a set of rules and principles in object-oriented design. It has been developed overtime to
-                    eliminate as much technical debt as possible and improve testability of your code which could significantly
-                    save a lot of time.
-                </p>
-
-                <p>
-
-                <h2><u>Pytest vs Pylint</u></h2>
-
-                </p>
-
-
-                 <p>
-
-                     Pytest tests for all your tests to run properly which will significantly increase your confidence for
-                     a test to run as expected prior to hosting it on web and make your testing productivity a lot more efficient.
-                     Pylint is used for checking if your code meets the python standards and looks for type errors.It also
-                     suggests on how to properly refactor your code if needed.
-
-                </p>
-
-
-                <p>
-                     We have gone through a lot of material today and one of the last but not least topics we have not
-                     discussed in much detail would be the design patterns.
-
-                <p>
-
-                <h2><u>What are the design patterns and what makes them so special?</u></h2>
-
-                </p>
-
-                <p>
-
-
-                   <img src="{{ url_for('static', filename='images/design.png') }}" class="img-fluid mt-5"
-                      alt="staticmethod" width="600px" height="500px"style="float:left">
-
-                
-                </p>
-                
-                <p>  Design patterns act like a blueprint to our design code and does not
-                     act like an algorithm where it will act upon a problem and resolve it as an emd result, design patterns
-                     are somewhat general steps with avenues for you to chose to accomplish a certain task which will lead
-                     only to one result. It is absolutely crucial to have it in our arsenal to make programming alot more
-                     efficient when it comes to communicating with your team and speaking same language as well as teaches
-                     you how to solve problems in software design today.
-               
-
-                </p>
-
-                <p>
-                    Sources:
-                </p>
-
-                <p>
-                    https://www.geeksforgeeks.org/encapsulation-in-python/
-                    https://www.geeksforgeeks.org/inheritance-in-python/
-                    https://www.geeksforgeeks.org/polymorphism-in-python/
-                    https://csharp.2000things.com/2011/03/03/259-static-vs-instance-properties/
-                    https://www.geeksforgeeks.org/python-oops-concepts/
-                    https://blogs.msmvps.com/deborahk/object-oriented-programming-oop-terms/
-                    https://docs.pytest.org/en/6.2.x/fixture.html
-                    https://www.pythontutorial.net/python-basics/python-type-hints/
-                    https://refactoring.guru/design-patterns/what-is-pattern
-                    https://www.redbubble.com/i/notebook/Arrange-Act-Assert-Unit-Testing-by-Naubra/59482052.RXH2R
-                    https://www.vectorstock.com/royalty-free-vector/oop-letters-vector-8757750
-                    https://realpython.com/pytest-python-testing/
-                    https://pylint.pycqa.org/en/latest/intro.html
-
-                    
-
-
-                </p>
-                <p>
-
-                </p>
-                </p>
-                <p>
-
-                </p>
-                <p>
-                </p>
-
-                <p>
-                </p>
-
-            </div>
-
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+            -->
+
+            <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
     </body>
     </html>

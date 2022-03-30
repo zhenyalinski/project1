@@ -23,13 +23,8 @@
             </header>
             <div class="row">
 
-
             <div class="row">
                 <h1><span class="diffont">D</span>efinition of OOP</h1>
-            </div>
-
-            <div class="col-14">
-
                 <p>
                     <h2><u>Relationship between OOP principles and calculator program </u></h2>
                 </p>
@@ -41,122 +36,142 @@
                     between two and how can we distinguish them? Let's get right into it.
                 </p>
 
-                <p>
-                    <h2><u>How does encapsulation relate to the calculator code?</u></h2>
-                </p>
+            </div>
 
-                <p>
+            <div class="row">
+                        <div class="col-6 boarder">
+                            <p>
 
-                <img src="{{ url_for('static', filename='images/encap3.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px"style="float:left">
-
-                </p>
-
-                <p>
-
-                <img src="{{ url_for('static', filename='images/encap4.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px" style="float:right">
-
-                </p>
+                            </p>
 
 
-                <p>
-                    Encapsulation plays a vital role in our calculator project. It somewhat isolates and treats a calculator
-                    class separately which allows to test each environment without interfering others. Remember, we want
-                    to avoid the spaghetti code and have one function perform one thing which represents the single -
-                    responsibility principle.If we look to the screenshot on the left calc1 and cal2 represent two separate
-                    environments expecting 2 different results 5 and 6. If we look at the screenshot on the right, it has
-                    elements of encapsulation as well, where we have an addition calculation class asserting for a result of 1
-                    which will be considered one environment and the subtraction method asserting for a -1 as another
-                    environment.
-                </p>
-                <p>
-                    <h2><u>So, what about inheritance? What role does it play in our calculator project?</u></h2>
-                </p>
 
-                <p>
+                            <img src="{{ url_for('static', filename='images/encap3.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
 
-                <img src="{{ url_for('static', filename='images/addclass.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px"style="float:left">
+                            <img src="{{ url_for('static', filename='images/encap4.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
+                            <img src="{{ url_for('static', filename='images/abstract44.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
 
-                </p>
+                        </div>
+                        <div class="col boarder">
 
-                <p>
+                        <h2><u>How does encapsulation relate to the calculator code?</u></h2>
+                            Encapsulation plays a vital role in our calculator project. It somewhat isolates and treats
+                            a calculator
+                            class separately which allows us to test each environment without interfering others. Remember,
+                            we want
+                            to avoid the "spaghetti" code and have one function perform one thing which represents the
+                            single -
+                            responsibility principle.If we look to the screenshot on the left calc1 and cal2 represent
+                            two separate
+                            environments expecting 2 different results 5 and 6. If we look at the screenshot below, it has
+                            elements of encapsulation as well, where we have an addition calculation class asserting for
+                            a result of 1
+                            which will be considered one environment and the subtraction method asserting for a -1 as
+                            another
+                            environment.
 
-                <img src="{{ url_for('static', filename='images/calcclass.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px" style="float:right">
-
-                </p>
-
-
-                <p>
-                    Inheritance is one of other 4 main principles in OOP that may not ignore.Inheritance is directly related
-                    to polymorphism and encapsulation which all answer one simple but important question, what your code really
-                    do. If we look closely at our screenshots above you can actually have the addition call inherits
-                    calculator properties because they are both meant to do one thing, calculate, so we can certainly put the
-                    code together in a certain matter where again, calculator inherits addition properties.
-                </p>
-                 <p>
-                    <h2><u>Have you heard of polymorphism in programming world before? </u></h2>
-                </p>
-
-                <p>
-
-                <img src="{{ url_for('static', filename='images/poly11.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px"style="float:left">
-
-                </p>
-
-                <p>
-
-                <img src="{{ url_for('static', filename='images/poly22.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px" style="float:right">
-
-                </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 boarder">
+                        <h2><u>So, what about inheritance? What role does it play in our calculator project?</u></h2>
+                            Inheritance is one of other 4 main principles in OOP that may not ignore.Inheritance is
+                            directly related
+                            to polymorphism and encapsulation which all answer one simple but important question, what
+                            your code really
+                            do. If we look closely at our screenshots you can actually have the addition call
+                            inherits
+                            calculator properties because they are both meant to do one thing, calculate, so we can
+                            certainly put the
+                            code together in a certain manner where again, calculator inherits addition properties.
 
 
-                <p>
-                    Polymorphism is another major principle of object-oriented programming.The actual word "polymorphism"
-                    stands for having many shapes, therefore we will have one function which will be used for many different
-                    types/shapes. If we take a close at our code, we have the "result" which will call for other types/objects
-                    like subtraction, multiplication and other, where "self.result" method is triggered calling for the
-                    "return" feature result appear in our calculator.
-                </p>
-                <p>
-                    <h2><u>Yes, abstraction is one of the main principles of OOP but what does it really do?</u></h2>
-                </p>
 
-                <p>
+                        </div>
+                        <div class="col boarder">
 
-                <img src="{{ url_for('static', filename='images/abstract11.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px"style="float:left">
+                            <img src="{{ url_for('static', filename='images/addclass.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
+                            <img src="{{ url_for('static', filename='images/calcclass.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
 
-                </p>
+                        </div>
+                    </div>
+            <div class="row">
+                        <div class="col-6 boarder">
+                            <p>
 
-                <p>
+                            </p>
 
-                <img src="{{ url_for('static', filename='images/abstract22.png') }}" class="img-fluid mt-5"
-                   alt="staticmethod" width="600px" height="400px" style="float:right">
 
-                </p>
 
-                <p>
-                    Lets look at basic idea of an abstract, abstract is something that exists/participates but not
-                    having that physical existence.Abstraction is one of the most crucial OOP principles especially for
-                    our calculator program. Abstraction shows/reflects chain type of event in a layered manner, this is
-                    how operations and calculator_test.py communicate together. If we look closely at our code, the screenshots
-                    show examples of an abstraction. The screenshot on the right showing the class of Multiplication which
-                    exists but triggers other functions like "def multiply" causing multiplication processes to kick in and
-                    the "return" which will send the value 1 and value to the calculator. And the screenshot on the left
-                    showing elements of an abstraction where "def multiply" and "def divide" triggering "result" of the
-                    multiplication return to self result, which are again just elements of an abstraction.
-                </p>
+                            <img src="{{ url_for('static', filename='images/poly11.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
+
+                            <img src="{{ url_for('static', filename='images/poly22.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:left">
+
+                        </div>
+                        <div class="col boarder">
+
+                        <h2><u>Have you heard of polymorphism in programming world before?</u></h2>
+                            Polymorphism is another major principle of object-oriented programming.The actual word
+                            "polymorphism"
+                            stands for having many shapes, therefore we will have one function which will be used for
+                            many different
+                            types/shapes. If we take a close look at our code, we have the "result" which will call for other
+                            types/objects
+                            like subtraction, multiplication and other, where "self.result" method is triggered calling
+                            for the
+                            "return" feature result appear in our calculator.
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 boarder">
+                        <h2><u>Yes, abstraction is one of the main principles of OOP but what does it really do?</u></h2>
+
+                            Lets look at basic idea of an abstract, abstract is something that exists/participates but
+                            not
+                            having that physical existence.Abstraction is one of the most crucial OOP principles
+                            especially for
+                            our calculator program. Abstraction shows/reflects chain type of events in a layered manner,
+                            this is
+                            how operations and calculator_test.py communicate together. If we look closely at our code,
+                            the screenshots
+                            show examples of an abstraction. The screenshot on the right showing the class of
+                            Multiplication which
+                            exists but triggers other functions like "def multiply" causing multiplication processes to
+                            kick in and
+                            the "return" which will send the value 1 and value to the calculator. And the other screenshot
+
+                            showing elements of an abstraction where "def multiply" and "def divide" triggering "result"
+                            of the
+                            multiplication return to self result, which are again just elements of an abstraction.
+
+
+                        </div>
+                        <div class="col boarder">
+
+                            <img src="{{ url_for('static', filename='images/abstract11.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
+                            <img src="{{ url_for('static', filename='images/abstract22.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
+                            <img src="{{ url_for('static', filename='images/abstract33.png') }}" class="img-fluid mt-5"
+                                 alt="staticmethod" width="600px" height="500px" style="float:right">
+
+
+                        </div>
+                    </div>
 
 
             </div>
 
                 <p>
-                    Sources:
+                    <h2><u>Sources:</u></h2>
                 </p>
 
                 <p>
